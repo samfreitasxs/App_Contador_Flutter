@@ -70,9 +70,9 @@ class _HomePageState extends State<HomePage> {
             const SizedBox(height: 32),
             Text(
               count.toString(),
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 100,
-                color: Colors.white,
+                color: isFull ? Colors.red : Colors.white,
               ),
             ),
             const SizedBox(height: 32),
