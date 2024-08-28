@@ -1,4 +1,4 @@
-# contador
+# Contador de Pessoas
 
 A new Flutter project.
 
